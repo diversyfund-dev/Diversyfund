@@ -1,0 +1,8 @@
+# Disallow the following page folders.
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/uploads/
+
+Sitemap: https://diversyfund.com/sitemap_index.xml
